@@ -1,4 +1,4 @@
-program token.aleo;
+program token_raktim.aleo;
 
 record Token:
     owner as address.private;

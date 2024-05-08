@@ -1,6 +1,6 @@
 // Token mint and transfer
 
-program token.aleo {
+program token_raktim.aleo {
 
 record Token{
     owner: address,
