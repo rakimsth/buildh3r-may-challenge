@@ -4,11 +4,11 @@ import { ethers } from "ethers";
 
 // Sign up to get your free API key at https://explorer.blocknative.com/?signup=true
 // Required for Transaction Notifications and Transaction Preview
-const apiKey = "a60a803d-00f6-4255-b9f8-a4795efe8c9e";
+const apiKey = import.meta.env.VITE_BN_KEY;
 
 const injected = injectedModule();
 
-const infuraKey = "23VXCqsIIKpXHc0sXnAhoaSXhve";
+const infuraKey = import.meta.env.VITE_INFURA_KEY;
 const rpcUrl = `https://mainnet.infura.io/v3/${infuraKey}`;
 
 // initialize Onboard
